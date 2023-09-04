@@ -1,0 +1,36 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sirenita5_app.Actualizar">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Aqua">
+            <Frame CornerRadius="20" 
+           HasShadow="False" 
+           Margin="10" 
+           HorizontalOptions="Center">
+                <StackLayout>
+                    <Label Text="Actualice sus datos"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   HorizontalOptions="Center" />
+                </StackLayout>
+            </Frame>
+            <Frame CornerRadius="20" 
+       HasShadow="False"
+       Margin="20" 
+       VerticalOptions="FillAndExpand">
+                <StackLayout>
+                    <Entry x:Name="txtId" Placeholder="Ingrese el Id" TextColor="Black" Margin="10" PlaceholderColor="#aaa" Keyboard="Numeric"/>
+                    <Entry x:Name="txtNombre" Placeholder="Nombre" TextColor="Black" Margin="10" PlaceholderColor="#aaa" />
+                    <Entry x:Name="txtApellidoPaterno" Placeholder="Apellido Paterno" TextColor="Black" Margin="10" PlaceholderColor="#aaa" />
+                    <Entry x:Name="txtApellidoMaterno" Placeholder="Apellido Materno" TextColor="Black" Margin="10" PlaceholderColor="#aaa" />
+                    <Entry x:Name="txtEdad" Placeholder="Edad" TextColor="Black" Margin="10" PlaceholderColor="#aaa" Keyboard="Numeric" />
+                    <Entry x:Name="txtEmail" Placeholder="Coreo" TextColor="Black" Margin="10" PlaceholderColor="#aaa" Keyboard="Email" />
+                    <Button x:Name="btnBuscar" Text="Buscar" Margin="10" Clicked="btnBuscar_Clicked" BackgroundColor="#10B8BD" TextColor="Black" CornerRadius="10" />
+                    <Button x:Name="btnGuardar" Text="Guardar" Margin="10" Clicked="btnGuardar_Clicked" BackgroundColor="#10B8BD" TextColor="Black" CornerRadius="10" />
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

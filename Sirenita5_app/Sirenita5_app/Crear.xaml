@@ -1,0 +1,34 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sirenita5_app.Crear">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Aqua">
+            <Frame CornerRadius="20" 
+           HasShadow="False" 
+           Margin="20, 20, 20, 0" 
+           HorizontalOptions="FillAndExpand">
+                <StackLayout>
+                    <Label Text="Ingrese datos"
+                   FontSize="30"
+                   FontAttributes="Bold"
+                   TextColor="Black"
+                   HorizontalOptions="Center" />
+                </StackLayout>
+            </Frame>
+            <Frame CornerRadius="20" 
+           HasShadow="False"
+                   Margin="20, 20, 20, 0"
+           VerticalOptions="Fill">
+                <StackLayout>
+                    <Entry x:Name="txtNombre" PlaceholderColor="Black" Placeholder="Nombre" TextColor="Black" Margin="10" MaxLength="50" />
+                    <Entry x:Name="txtApellidoPaterno" PlaceholderColor="Black" Placeholder="Apellido Paterno" TextColor="Black" Margin="10" MaxLength="50"/>
+                    <Entry x:Name="txtApellidoMaterno" PlaceholderColor="Black" Placeholder="Apellido Materno" TextColor="Black" Margin="10" MaxLength="50"/>
+                    <Entry x:Name="txtEdad" PlaceholderColor="Black" Placeholder="Edad" TextColor="Black" Margin="10" Keyboard="Numeric" MaxLength="3"/>
+                    <Entry x:Name="txtEmail" PlaceholderColor="Black" Placeholder="Correo" TextColor="Black" Margin="10" Keyboard="Email" MaxLength="100"/>
+                    <Button x:Name="btnRegistrar" TextColor="Black" BackgroundColor="#10B8BD" Text="Guardar" Clicked="btnRegistrar_Clicked" Margin="10" CornerRadius="10"/>
+                </StackLayout>
+            </Frame>
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>

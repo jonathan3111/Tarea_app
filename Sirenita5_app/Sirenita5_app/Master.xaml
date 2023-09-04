@@ -1,0 +1,14 @@
+﻿<?xml version="1.0" encoding="utf-8" ?>
+<ContentPage xmlns="http://xamarin.com/schemas/2014/forms"
+             xmlns:x="http://schemas.microsoft.com/winfx/2009/xaml"
+             x:Class="Sirenita5_app.Master"
+             Title="Master">
+    <ContentPage.Content>
+        <StackLayout BackgroundColor="Aqua" Padding="0, 30, 0, 0">
+            <Button Text="Crear" x:Name="btnCrear" TextColor="White" Margin="40, 50, 40, 10" CornerRadius="10" BackgroundColor="#10B8BD" FontAttributes="Bold" Clicked="btnCrear_Clicked" />
+            <Button Text="Listado" x:Name="btnVer" TextColor="White" Margin="40, 10, 40, 10" CornerRadius="10" BackgroundColor="#10B8BD" FontAttributes="Bold" Clicked="btnVer_Clicked" />
+            <Button Text="Actualizar" x:Name="btnActualizar" TextColor="White" Margin="40, 10, 40, 10" CornerRadius="10" BackgroundColor="#10B8BD" FontAttributes="Bold" Clicked="btnActualizar_Clicked" />
+            <Button Text="Eliminar" x:Name="btnEliminar" TextColor="White" Margin="40, 10, 40, 10" CornerRadius="10" BackgroundColor="#10B8BD" FontAttributes="Bold" Clicked="btnEliminar_Clicked" />
+        </StackLayout>
+    </ContentPage.Content>
+</ContentPage>
