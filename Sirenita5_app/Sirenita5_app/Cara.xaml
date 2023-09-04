@@ -14,7 +14,7 @@
            HasShadow="False">
             <StackLayout VerticalOptions="Center"
                      Spacing="20">
-                <Image Source="sirena.png"/>
+                <Image Source="logo.png"/>
                 <Label Text="¡Bienvenidos a nuestra Cevichería Las Sirenitas! Aquí, sumérgete en un mundo de sabores frescos y auténticos que te transportarán directamente a las costas más exquisitas. Nuestro compromiso es brindarte una experiencia culinaria única, donde cada bocado es un viaje a la frescura del océano."
                    FontAttributes="Bold"
                    FontSize="20"

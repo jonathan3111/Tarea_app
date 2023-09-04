@@ -645,3 +645,4 @@ C:\Users\usuario\source\repos\Sirenita5_app\Sirenita5_app\Sirenita5_app.Android\
 C:\Users\usuario\source\repos\Sirenita5_app\Sirenita5_app\Sirenita5_app.Android\obj\Debug\130\stamp\_GeneratePackageManagerJava.stamp
 C:\Users\usuario\source\repos\Sirenita5_app\Sirenita5_app\Sirenita5_app.Android\obj\Debug\130\stamp\_ResolveLibraryProjectImports.stamp
 C:\Users\usuario\source\repos\Sirenita5_app\Sirenita5_app\Sirenita5_app.Android\obj\Debug\130\res\drawable\sirena.png
+C:\Users\usuario\source\repos\Sirenita5_app\Sirenita5_app\Sirenita5_app.Android\obj\Debug\130\res\drawable\logo.png

@@ -87,7 +87,9 @@
     <AndroidResource Include="Resources\mipmap-xxxhdpi\icon.png" />
     <AndroidResource Include="Resources\mipmap-xxxhdpi\launcher_foreground.png" />
   </ItemGroup>
-  <ItemGroup />
+  <ItemGroup>
+    <AndroidResource Include="Resources\drawable\logo.png" />
+  </ItemGroup>
   <ItemGroup>
     <ProjectReference Include="..\Sirenita5_app\Sirenita5_app.csproj">
       <Project>{10AB54E1-6DFB-4C18-9988-D40D663793E4}</Project>
